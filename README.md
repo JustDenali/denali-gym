@@ -1,5 +1,5 @@
 # denali-gym
-Simple gym script for ps-buffs
+Simple QB-Core gym script for PS-Buffs
 
 A simple gym script for ps-buffs and ps-hud.  Use the config to place items into the gym.  
 
