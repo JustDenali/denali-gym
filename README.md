@@ -8,7 +8,7 @@ You can adjust buffs in client.lua .  Be sure to check out project sloth to lear
 ---------------------------------------------
 If you want to change the animations, it is also done in client.lua   Use this dictionary or one similar https://alexguirre.github.io/animations-list/
 
-I also currently use nh-context, but will be switching to qb-menu soon.  
+I also currently use nh-context, but will be switching to qb-menu soon.  Without using nh-context or adding in qb-menu, the script will not work.  Here is nh-context https://github.com/nerohiro/nh-context
 
 ---------------------------------------------
 Important!  You need a gym membership for the you to be able to use the equipment.  Make sure to add to your shared/items.lua
