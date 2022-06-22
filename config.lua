@@ -9,27 +9,19 @@ Config.Items = {
     items = { 
         [1] = {
             name = 'gym_membership',
-            price = 5000, 
+            price = 500, 
             amount = 100,
             info = {},
             type = 'item',
             slot = 1,
         },
         [2] = {
-            name = "powerade",
-            price = 75,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 2,
-        },
-        [3] = {
             name = "water_bottle",
             price = 5,
             amount = 50,
             info = {},
             type = "item",
-            slot = 3,
+            slot = 2,
         },
     },
 }
