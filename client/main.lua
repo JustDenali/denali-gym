@@ -377,7 +377,7 @@ end
 
 ---menu/utils
 RegisterNetEvent('denali-gym:mat', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Mat Work",
@@ -395,7 +395,7 @@ RegisterNetEvent('denali-gym:mat', function()
 end)
 
 RegisterNetEvent('denali-gym:run', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Treadmill",
@@ -413,7 +413,7 @@ RegisterNetEvent('denali-gym:run', function()
 end)
 
 RegisterNetEvent('denali-gym:rack', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Pump Iron",
@@ -431,7 +431,7 @@ RegisterNetEvent('denali-gym:rack', function()
 end)
 
 RegisterNetEvent('denali-gym:work', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Chin Ups",
@@ -449,7 +449,7 @@ RegisterNetEvent('denali-gym:work', function()
 end)
 
 RegisterNetEvent('denali-gym:bars', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Pull Ups",
@@ -467,7 +467,7 @@ RegisterNetEvent('denali-gym:bars', function()
 end)
 
 RegisterNetEvent('denali-gym:free', function()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
             id = 1,
             header = "Free Weights",
