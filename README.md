@@ -3,11 +3,10 @@ Simple QB-Core gym script for PS-Buffs
 
 A simple gym script for ps-buffs and ps-hud.  Use the config to place items into the gym.  
 
+You can adjust buffs in client.lua .  Be sure to check out project sloth to learn more about this.
 
-Replace powerade with drink of your choice
-
-You can adjust buffs in client.lua
-If you want to change the animations, it is also done in client.lua
+---------------------------------------------
+If you want to change the animations, it is also done in client.lua   Use this dictionary or one similar https://alexguirre.github.io/animations-list/
 
 I also currently use nh-context, but will be switching to qb-menu soon.  
 
