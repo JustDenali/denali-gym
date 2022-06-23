@@ -20,8 +20,8 @@ end)
 QBCore.Functions.CreateCallback('denali-gym:getMembership',function(source, cb)
     local src = source 
     local Player = QBCore.Functions.GetPlayer(src)
-    local bun = Player.Functions.GetItemByName('gym_membership')
-    if bun ~= nil then 
+    local pass = Player.Functions.GetItemByName('gym_membership')
+    if pass ~= nil then 
         cb(true)
     else 
         cb(false)
